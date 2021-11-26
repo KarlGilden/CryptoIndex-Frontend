@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper{
+    padding: 50px 15%;
+
+}
+
+#data{
+    text-align: center;
+}
+
+.search-bar{
+    width: 50%;
+}
+
+@media screen and (max-width: 575px){
+    .search-bar{
+        width: 100%;
+    }
+}
